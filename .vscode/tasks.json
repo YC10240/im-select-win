@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cmake",
+            "label": "CMake Release: 清理重新生成",
+            "command": "cleanRebuild",
+            "targets": [
+                "all"
+            ],
+            "preset": "Release",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 清理重新生成 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake Release: 生成",
+            "command": "build",
+            "targets": [
+                "all"
+            ],
+            "preset": "Release",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 生成 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake Debug: 清理重新生成",
+            "command": "cleanRebuild",
+            "targets": [
+                "all"
+            ],
+            "preset": "Debug",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 清理重新生成 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake Debug: 生成",
+            "command": "build",
+            "targets": [
+                "all"
+            ],
+            "preset": "Debug",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 生成 任务"
+        },
+        
+    ]
+}
