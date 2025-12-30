@@ -1,1 +1,2 @@
-# im-select[https://github.com/daipeihust/im-select/tree/master]项目的修复版，win11可用，64位
+# im-select-win
+## [im-select](https://github.com/daipeihust/im-select/tree/master)项目的win11-64位
